@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 25px);
+  grid-template-rows: repeat(10, 25px);
+}
+
+.grid div {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+
+}
+
+.grid div:nth-child(10n) {
+  border-right: 1px solid black;
+}
+
+.grid div:nth-child(n+91) {
+  border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
